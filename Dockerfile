@@ -1,5 +1,5 @@
 FROM alpine
-RUN apk add python3 py3-pip bash wget
+RUN apk add python3 py3-pip bash wget curl
 RUN pip3 install --upgrade pip
 RUN pip3 install flask
 RUN mkdir /opt/nubevaTools
